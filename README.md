@@ -1,49 +1,11 @@
-# CRUD-App
-
-## Overview
-
-**CRUD-App** is a full-stack web application that demonstrates Create, Read, Update, and Delete (CRUD) operations. This project is built with a **React frontend** and a **Node.js/Express backend** to manage data effectively. It is a practical template to learn and extend basic full-stack development concepts.
-
-## Table of Contents
-
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Installation](#installation)  
-  - [Clone the Repository](#clone-the-repository)  
-  - [Backend Setup](#backend-setup)  
-  - [Frontend Setup](#frontend-setup)  
-- [Usage](#usage)  
-- [API Endpoints](#api-endpoints)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)
-
-## Features
-
-- Create new records  
-- Read and display existing records  
-- Update existing entries  
-- Delete records  
-- Client-server architecture  
-- Ready-to-customize for other projects
-
-
-## Tech Stack
-
-This project uses the following technologies:
-
-| Layer         | Technology        |
-|---------------|------------------|
-| Frontend      | React            |
-| Backend       | Node.js, Express |
-| Database      | (Add your DB here, e.g., MongoDB) |
-| API           | REST             |
-| Languages     | JavaScript (ES6+) |
-
-## Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/mohitsaini958/CRUD-App.git
-cd CRUD-App
+| 🚀 Project | CRUD App |
+|-----------|----------|
+| 📄 Description | Full-stack web application implementing Create, Read, Update, and Delete operations |
+| 🎨 Frontend | React |
+| ⚙ Backend | Node.js, Express |
+| 🗄 Database | MongoDB |
+| 🔗 API Style | REST |
+| 🛠 Tools | Git, GitHub, npm |
+| 📦 Version | 1.0.0 |
+| 👨‍💻 Author | Mohit Saini |
+| 🌐 Repository | https://github.com/mohitsaini958/CRUD-App |
