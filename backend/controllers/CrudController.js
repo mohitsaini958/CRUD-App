@@ -12,15 +12,7 @@ module.exports.Post=async(req,res)=>{
     res.status(201).json({message:"post created successfully"});
 }
 
-module.exports.Update=async(req,res)=>{
-    const {id}=req.params;
-    const {title,content}=req.body;
-    if(!content || !title)return res.status(400).json({message:"add data in input text"});
-    const update=await Crud.findByIdAndUpdate(
-        id,{title,content},{new:true}
-    );
-    res.status(201).json({message:"post update successfully"});
-}
+
 
 module.exports.Delete=async(req,res)=>{
     const {id}=req.params;
