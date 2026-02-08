@@ -1,9 +1,6 @@
 const Crud=require("../models/CrudModel");
 
-module.exports.GetData=async(req,res)=>{
-    const data=await Crud.find();
-    res.status(200).json(data);
-}
+
 
 module.exports.Post=async(req,res)=>{
     const {title,content}=req.body;
